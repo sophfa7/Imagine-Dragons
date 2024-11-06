@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video {
+            margin: 20px 0;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos do YouTube</h1>
+
+    <div class="video">
+        <h2>Vídeo 1: Exemplo de Vídeo 1</h2>
+        <iframe src="https://www.youtube.com/embed/fKopy74weus" frameborder="0" allowfullscreen></iframe>
+        <p>
+            <a href="https://www.youtube.com/watch?v=fKopy74weus" target="_blank">Assistir no YouTube</a>
+        </p>
+    </div>
+
+    <div class="video">
+        <h2>Vídeo 2: Exemplo de Vídeo 2</h2>
+        <iframe src="https://www.youtube.com/embed/7wtfhZwyrcc" frameborder="0" allowfullscreen></iframe>
+        <p>
+            <a href="https://www.youtube.com/watch?v=7wtfhZwyrcc" target="_blank">Assistir no YouTube</a>
+        </p>
+    </div>
+
+</body>
+</html>
